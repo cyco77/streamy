@@ -1,0 +1,79 @@
+
+.horsemarket_horselist_image
+{
+    width: 110px;
+}
+
+.horsemarket_horselist_image img
+{
+    margin: 5px;
+	border: 1px solid #bbb;
+    border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+}
+
+.horsemarket_horselist
+{
+    width: 100%;
+}
+
+.horsemarket_horselist th
+{
+    border-bottom: 1px solid #525252;
+}
+
+.horsemarket_horselist tr 
+{
+    border: 0;
+}
+
+.horsemarket_horselist td
+{
+    text-align: center;
+    border: 0;
+}
+
+
+/* Horse-View */
+
+#horsetitel
+{
+    font-size: 110%;
+    margin-bottom: 5px;
+}
+
+#horsemarket_horse_mediafiles {
+    float: right;
+    width: 300px;
+}
+
+#horsemarket_horse_mediafiles img {
+    border: 1px solid #bbb;
+    border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    margin: 5px;
+}
+
+#horsemarket_horse_details {
+    margin-right: 300px;   
+}
+
+.horsemarket_horse_details_value {
+    margin-bottom: 4px;
+}
+
+#horsemarket_horse_details div span {
+    font-weight: bold;
+}
+
+#horsemarket_horse_details_backlink {
+	margin: 3px;
+}
+
+@media all and (max-width: 768px) {
+    .horsemarket_hidemobile {
+        display: none;
+    }
+}

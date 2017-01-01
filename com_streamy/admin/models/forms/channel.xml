@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id: helloworld.xml 51 2010-11-22 01:33:21Z chdemko $ -->
+<form>
+  <fieldset>
+    <field
+		name="id"
+		type="hidden"		/>
+    <field
+		name="name"
+		type="text"
+		label="COM_STREAMY_CHANNEL_FIELD_NAME_LABEL"
+		description="COM_STREAMY_CHANNEL_FIELD_NAME_DESC"
+		size="40"
+		class="inputbox"
+		required="true"		/>
+    <field
+        name="typeid"
+        type="channeltype"
+        multiple="false"
+        label="COM_STREAMY_CHANNEL_FIELD_TYPE_LABEL"
+        description="COM_STREAMY_CHANNEL_FIELD_TYPE_DESC"
+        size="1"
+        class="inputbox"
+        required="true"
+		/>
+    <field
+   name="width"
+   type="text"
+   label="COM_STREAMY_CHANNEL_FIELD_WIDTH_LABEL"
+   description="COM_STREAMY_CHANNEL_FIELD_WIDTH_DESC"
+   size="40"
+   class="inputbox"
+   required="false"		/>
+    <field
+   name="height"
+   type="text"
+   label="COM_STREAMY_CHANNEL_FIELD_HEIGHT_LABEL"
+   description="COM_STREAMY_CHANNEL_FIELD_HEIGHT_DESC"
+   size="40"
+   class="inputbox"
+   required="false"		/>
+    <field
+		name="url"
+		type="text"
+		label="COM_STREAMY_CHANNEL_FIELD_URL_LABEL"
+		description="COM_STREAMY_CHANNEL_FIELD_URL_DESC"
+		size="40"
+		class="inputbox"
+		required="true"		/>
+    <field
+		name="chaturl"
+		type="text"
+		label="COM_STREAMY_CHANNEL_FIELD_CHATURL_LABEL"
+		description="COM_STREAMY_CHANNEL_FIELD_CHATURL_DESC"
+		size="40"
+		class="inputbox"
+    filter="raw"
+		required="false"		/>
+    <field
+			name="description"
+			type="editor"
+			label="COM_STREAMY_CHANNEL_FIELD_DESCRIPTION_LABEL"
+			description="COM_STREAMY_CHANNEL_FIELD_DESCRIPTION_DESC"
+		class="inputbox"
+		filter="JComponentHelper::filterText"
+		buttons="true"
+		hide="readmore,pagebreak"	/>
+    <field id="published"
+		name="published"
+		type="list"
+		label="JSTATUS"
+		description="JFIELD_PUBLISHED_DESC"
+		class="inputbox"
+		size="1"
+		default="1"		>
+      <option value="1">
+        JPUBLISHED
+      </option>
+      <option value="0">
+        JUNPUBLISHED
+      </option>
+    </field>
+    <field
+		name="ordering"
+		type="hidden"/>
+  </fieldset>
+</form>

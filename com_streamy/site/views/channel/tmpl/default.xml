@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_STREAMY_CHANNEL_VIEW_DEFAULT_TITLE">
+		<message>COM_STREAMY_CHANNEL_VIEW_DEFAULT_DESC</message>
+	</layout>
+  <fields name="request" addfieldpath="/administrator/components/com_streamy/models/fields">
+    <fieldset name="request">
+      <field
+        name="id"
+        type="channel"
+        label="COM_STREAMY_SELECT_CHANNEL"
+        description="COM_STREAMY_SELECT_CHANNEL_DESC" />
+    </fieldset>
+  </fields>
+</metadata>
+
